@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-mist-100 text-ink-900 font-body antialiased;
+  }
+
+  /* Language-driven typography: each locale gets a face that actually
+     renders it well, instead of forcing Latin fonts onto Arabic/Urdu. */
+  html[lang="ar"] body {
+    @apply font-arabic;
+  }
+
+  html[lang="ur"] body {
+    @apply font-urdu;
+  }
+
+  /* Respect reduced-motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Visible keyboard focus, not the default browser outline */
+  :focus-visible {
+    outline: 2px solid theme("colors.sage.500");
+    outline-offset: 2px;
+    border-radius: 0.375rem;
+  }
+}
+
+/* Custom scrollbar for the chat pane — subtle, not intrusive */
+.chat-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-scroll::-webkit-scrollbar-thumb {
+  background-color: theme("colors.sage.200");
+  border-radius: 999px;
+}
+.chat-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}

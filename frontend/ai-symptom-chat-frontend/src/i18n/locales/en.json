@@ -1,0 +1,101 @@
+{
+  "app": {
+    "name": "AI Symptom Chat",
+    "tagline": "A calm space to talk through how you're feeling"
+  },
+  "nav": {
+    "chat": "Chat",
+    "wellness": "Wellness",
+    "settings": "Settings"
+  },
+  "disclaimer": {
+    "banner": "This isn't a diagnosis. Always consult a licensed doctor about your health.",
+    "consent": "I understand this tool does not provide medical diagnosis and is for informational purposes only."
+  },
+  "profile": {
+    "welcomeTitle": "Welcome — let's set a few things up",
+    "welcomeSubtitle": "This takes about 10 seconds. Nothing is sent anywhere except your own browser.",
+    "nameLabel": "What should we call you?",
+    "namePlaceholder": "e.g. Sam (optional)",
+    "languageLabel": "Preferred language",
+    "continueButton": "Start chatting",
+    "continueAsGuest": "Continue without a name",
+    "editProfile": "Edit profile",
+    "consentRequired": "Please confirm you understand this before continuing."
+  },
+  "chat": {
+    "greeting": "Hi {{name}}, how are you feeling today? You can describe any symptoms in your own words.",
+    "greetingGuest": "Hi there, how are you feeling today? You can describe any symptoms in your own words.",
+    "inputPlaceholder": "Describe how you're feeling…",
+    "send": "Send",
+    "thinking": "Thinking…",
+    "newConversation": "New conversation",
+    "newConversationConfirm": "Start a new conversation? This clears your current chat history.",
+    "errorTitle": "Something went wrong",
+    "errorRetry": "Retry",
+    "errorGeneric": "We couldn't reach the assistant. Please check your connection and try again.",
+    "rateLimited": "You've sent a few messages quickly — please wait a moment before trying again.",
+    "suggestionsTitle": "Or start with something common",
+    "suggestion1": "I have a headache",
+    "suggestion2": "I feel feverish",
+    "suggestion3": "I have a sore throat",
+    "suggestion4": "I've been feeling tired",
+    "voiceInput": "Speak your symptoms"
+  },
+  "urgency": {
+    "self-care": "Self-care",
+    "see-a-doctor-soon": "See a doctor soon",
+    "seek-urgent-care": "Seek urgent care",
+    "emergency": "Seek emergency help",
+    "unclear": "Still gathering details"
+  },
+  "wellness": {
+    "title": "A moment to breathe",
+    "subtitle": "While you wait, or anytime you need it — a short breathing exercise.",
+    "breatheIn": "Breathe in…",
+    "breatheHold": "Hold…",
+    "breatheOut": "Breathe out…",
+    "tipsTitle": "Gentle reminders",
+    "tip1Title": "Stay hydrated",
+    "tip1Body": "Water supports nearly every system in your body — keep a glass nearby today.",
+    "tip2Title": "Rest when you can",
+    "tip2Body": "Your body repairs itself during rest. Even short breaks add up.",
+    "tip3Title": "Gentle movement",
+    "tip3Body": "A short, easy walk can ease tension without adding strain.",
+    "disclaimer": "These are general wellness reminders, not medical treatment."
+  },
+  "settings": {
+    "title": "Settings",
+    "profileSection": "Profile",
+    "nameLabel": "Your name",
+    "namePlaceholder": "Optional",
+    "saveButton": "Save changes",
+    "saved": "Saved",
+    "languageLabel": "Language",
+    "dataSection": "Your data",
+    "dataNote": "Your name and chat history are stored only in this browser — nothing is sent to a server for storage.",
+    "clearHistoryButton": "Clear conversation history",
+    "clearHistoryConfirm": "This will permanently delete your saved conversation on this device. Continue?",
+    "aboutSection": "About this app",
+    "aboutBody": "AI Symptom Chat is a portfolio demo and does not provide medical diagnosis, treatment, or emergency response. Always consult a licensed doctor for health concerns.",
+    "emergencyRegionLabel": "Emergency contact region",
+    "emergencyRegionNote": "Used only to show the correct emergency number if a conversation ever flags as urgent.",
+    "emergencyRegionUk": "UK (999)",
+    "emergencyRegionUae": "UAE (998)"
+  },
+  "emergency": {
+    "callButton": "Call emergency services ({{number}})"
+  },
+  "footer": {
+    "poweredBy": "Powered by Groq AI · Not a substitute for professional medical advice"
+  },
+  "context": {
+    "statusTitle": "Current status",
+    "noAssessment": "Describe how you're feeling in the chat to see an assessment here.",
+    "trendTitle": "Urgency trend",
+    "trendEmpty": "Once there's more than one assessment, a trend will appear here.",
+    "wellnessTeaserTitle": "Need a moment?",
+    "wellnessTeaserBody": "Try a short breathing exercise, anytime you need it.",
+    "wellnessTeaserButton": "Open Wellness"
+  }
+}
