@@ -1,6 +1,6 @@
 # 🩺 MedAssist AI
 
-**A calm, multilingual AI health companion — built to demonstrate production-grade full-stack engineering, not to replace a doctor.**
+**A calm, multilingual(Urdu, English, Arabic) AI health companion — built to demonstrate production-grade full-stack engineering, not to replace a doctor.**
 
 [![Live Demo](https://img.shields.io/badge/demo-live-6B8F61?style=for-the-badge)](#)
 [![Frontend](https://img.shields.io/badge/frontend-Vercel-000000?style=for-the-badge&logo=vercel)](#)
