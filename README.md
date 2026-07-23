@@ -17,14 +17,14 @@
 
 ---
 
-## 🔗 Live Demo
+<!-- ## 🔗 Live Demo
 
 | | |
 |---|---|
 | **Frontend** | [your-vercel-url.vercel.app](#) |
 | **Backend API** | [your-render-url.onrender.com/api/health](#) *(cold start may take 10–20s on first load — free tier)* |
 
----
+--->
 
 ## Why this project exists
 
