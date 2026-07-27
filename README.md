@@ -155,7 +155,7 @@ handling when the AI provider is unreachable — deliberately testing the
 
 ---
 
-## 📈 Performance & Accessibility
+<!-- ## 📈 Performance & Accessibility
 
 *Lighthouse scores (production build) — update these after deployment:*
 
@@ -175,7 +175,7 @@ handling when the AI provider is unreachable — deliberately testing the
 - Additional languages (Hindi and French would extend the UK/UAE/South-Asia reach further)
 - Automated Lighthouse CI checks on every PR
 
----
+--->
 
 ## ⚖️ Limitations (stated plainly, on purpose)
 
